@@ -118,7 +118,7 @@ with st.sidebar:
 
     st.caption("YOLO object detection")
 
-    model_path = Path("runs/detect/train-4/weights/best.pt")
+    model_path = Path(__file__).resolve().parent / "best.pt"
 
     if model_path.exists():
         st.code("best.pt")
