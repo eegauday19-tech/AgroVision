@@ -248,7 +248,7 @@ else:
 
             results = model.predict(
                 source=image,
-                conf=0.25,
+                conf=0.05,
                 verbose=False
             )
 
