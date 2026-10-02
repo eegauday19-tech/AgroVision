@@ -278,9 +278,9 @@ else:
             annotated_image = image
 
     except Exception as e:
-
-    st.error(f"AI inference error: {e}")
-    annotated_image = image
+        
+        st.error(f"AI inference error: {e}")
+        annotated_image = image
 
 
     # ========================================================
